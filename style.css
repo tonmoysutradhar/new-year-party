@@ -160,3 +160,65 @@ body {
   border: none;
   margin-top: 48px;
 }
+
+/* incoming offer section starts here  */
+
+.incoming-offer-container {
+  max-width: 1320px;
+  min-height: 463px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
+}
+.offer-content {
+  width: 393px;
+  margin-right: 70px;
+}
+.offer-content h3 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: red;
+}
+.offer-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+}
+
+.offer-img {
+  width: 463px;
+  height: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  margin-right: 118px;
+}
+
+.offer-year {
+  width: 276px;
+  font-family: "Inter";
+}
+.offer-year h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 16px;
+}
+.offer-year p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  margin-bottom: 43px;
+}
