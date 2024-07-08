@@ -327,3 +327,104 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* subscribe newsletter section styles starts here */
+
+.subscribe-section-container {
+  max-width: 1320px;
+  min-height: 616px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-section-container h1 {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.subscribe-section-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.subscribe-form {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+}
+.subscribe-form button {
+  background-color: red;
+  border: none;
+  outline: none;
+  padding: 24px 56px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0px 50px 50px 0px;
+  color: white;
+}
+
+/* footer section style starts here  */
+
+.footer-section-container {
+  max-width: 1560px;
+  min-height: 609px;
+  background-color: rgb(7, 2, 17);
+  margin: 0 auto;
+  color: white;
+}
+.footer-section {
+  width: 1320px;
+  height: 609px;
+  margin: 0 auto;
+  border: none;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+footer hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 48px 0px 48px 0px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+}
