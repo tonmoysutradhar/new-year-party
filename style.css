@@ -255,3 +255,75 @@ body {
   font-weight: 500;
   line-height: 32px;
 }
+
+/* holiday box offer style starts here  */
+
+.holiday-box-offer {
+  max-width: 1320px;
+  min-height: 662.07px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  position: relative;
+}
+.main-box-1 {
+  position: absolute;
+  bottom: 0%;
+}
+.main-box-1 img {
+  border-radius: 16px;
+}
+.main-box-2 {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.box1 {
+  width: 796.46px;
+  height: 662.07px;
+  margin-right: 177.54px;
+}
+.box2 {
+  margin-top: 77px;
+}
+
+/* portfolio section styles starts here */
+
+.portfolio-section-container {
+  max-width: 1320px;
+  min-height: 1163px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.portfolio-content h4 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 16px;
+}
+.portfolio-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.img-box-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.img-box-2 {
+  display: flex;
+  justify-content: space-between;
+}
